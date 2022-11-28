@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="./MDB-Free/css/bootstrap.css">
+<link rel="stylesheet" href="./MDB-Free/css/mdb.css">
+<style>
+    .btns{
+        margin-left: 30rem;
+        padding: 20px;
+    }
+    .search{
+        margin-left: 30rem;
+
+    }
+    th{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="btns">
+        <button onclick="allstudent()">ALL STUDENT</button>
+        <button onclick="grade()">A GRADE</button>
+        <button onclick="gradeB()">B GRADE</button>
+     
+    </div>
+    <div class="search">
+        <i class="fas fa-search"></i> <input type="text">
+    </div><br>
+    <br>
+     <table class="table table-bordered" >
+        <thead>
+            <tr>
+                <td>Roll.no</td>
+                <td>Name</td>
+                <td>Percentage</td>
+                <td>GRADE</td>
+            </tr>
+        </thead >
+        <tbody id="data">
+
+        </tbody>
+    </table>
+<script src="formedu.js">
+    
+</script>
+</body>
+</html>
